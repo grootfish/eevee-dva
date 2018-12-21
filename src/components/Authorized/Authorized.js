@@ -10,7 +10,7 @@ class Authorized extends React.Component {
    */
   urlAuthority = () => {
     const { pathname } = this.props.location;
-    const prefix = PROJECTNAME
+    const prefix = 'eevee';
     if (!this.needCheckUrl()) {
       return Promise.resolve({
         result: {
@@ -20,7 +20,7 @@ class Authorized extends React.Component {
     }
     return checkUrlPermission({
       method: 'get',
-      path: `/${prefix}${pathname.startsWith('/') ? pathname : '/' + pathname}`,
+      path: `/${prefix}${pathname.startsWith('/') ? pathname : `/${pathname}`}`,
     });
   }
 
