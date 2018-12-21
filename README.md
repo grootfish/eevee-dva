@@ -1,7 +1,5 @@
 # eevee
 
-> 网超交易链路基于 React 重构
-
 ## 目录结构
 
 ```
@@ -83,4 +81,3 @@
 - [x] [Autoprefixer](https://github.com/postcss/autoprefixer)
 - [x] [PostCSS](https://github.com/postcss/postcss)
 - [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
-- [ ] 还有哪些你认为有价值的优化点？随时联系@大海@蜗牛
